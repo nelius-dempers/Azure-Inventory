@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+# Azure-Inventory-Wizard
+Provides an Azure Resource Manager Powershell script for collecting Azure Cloud IaaS VM information.
 
-You can use the [editor on GitHub](https://github.com/nelius-dempers/Azure-Inventory/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Requires
+1. Windows PowerShell
+2. Azure PowerShell Az module
+3. Access to Azure subscription
+<br/><br/><br/>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Getting started with Azure PowerShell
+https://azure.microsoft.com/en-us/blog/azps-1-0/
 
-### Markdown
+#### 1. Check PowerShell modules ...
+*Get-Module -ListAvailable | Select-Object -Property Name,Version,Path*
+<br/><br/>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### 2. Check Az-module version ...
+*Get-InstalledModule AzureRM | Select-Object -Property Name,Version,Path*
+<br/><br/>
 
-```markdown
-Syntax highlighted code block
+#### 3. Install Az-module ...
+*Install-Module -Name Az -Force -Scope CurrentUser -AllowClobber*
+<br/><br/>
 
-# Header 1
-## Header 2
-### Header 3
+#### 4. Log in to Azure from PowerShell ...
+*Login-AzAccount*
+<br/><br/>
 
-- Bulleted
-- List
+#### 5. List Azure subscriptions ...
+*Get-AzSubscription*
+<br/><br/><br/>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nelius-dempers/Azure-Inventory/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Usage Guidelines
+This script should be executed from within the PowerShell ISE ...
+1. Load the script in PowerShell ISE and update the export file path to the desired storage location
+2. Set the script control variables
+3. Log in to Azure with
+   Login-AzAccount
+4. Run the script
+5. Consult the PowerShell ISE output for progress
+6. Load and consult output CSV file in MS Excel for inventory results
