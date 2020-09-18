@@ -6,13 +6,13 @@
 #            <AzVMSize>, <AzVMExtensions>, <AzVMAvailabilitySet>, <AzVMFaultDomain>, <AzVMUpdateDomain>, 
 #            <AzVMAvailabilityZone>, <AzVMProximityPlacementGroup>, <AzVMTags>, <AzVMOSType>, <AzVMOSSourceImage>, 
 #            <AzVMOSDiskInfo>, <AzVMOSDiskName>, <AzVMDataDiskCount>, <AzVMDataDiskInfo>, <AzVMDataDiskNames>, <AzVMNICInfo>
-#Copyright : (C) Copyright IBM Corporation 2020
+#Copyright : Copyright (c) 2020, Nelius N. Dempers
 #            LICENSE: BSD-2-Clause (https://opensource.org/licenses/BSD-2-Clause)
 #Syntax    : This script should be executed from within the Windows PowerShell ISE
 #            but first...
 #            Update the export file path to the desired storage location
 #            Manually log in to Azure with ...Login-AzAccount
-#            Set script control variables ...
+#            Set script control variables
 #            Run the script
 #            Consult PowerShell output for progress
 #            Consult output CSV file for inventory results
