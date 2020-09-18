@@ -4,7 +4,7 @@ Provides an Azure Resource Manager Powershell script for collecting Azure Cloud 
 ## Requires
 1. Windows PowerShell
 2. Azure PowerShell Az module
-3. Access to Azure subscription
+3. Access to Azure subscription(s)
 <br/><br/><br/>
 
 ## Getting started with Azure PowerShell
