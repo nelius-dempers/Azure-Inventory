@@ -31,7 +31,7 @@ https://azure.microsoft.com/en-us/blog/azps-1-0/
 <br/><br/><br/>
 
 ## Usage Guidelines
-This script should be executed from within the PowerShell ISE ...
+This script should be executed from within the Windows PowerShell Integrated Scripting Environment (ISE)
 1. Load the script in PowerShell ISE and update the export file path to the desired storage location
 2. Set the script control variables
 3. Log in to Azure with
