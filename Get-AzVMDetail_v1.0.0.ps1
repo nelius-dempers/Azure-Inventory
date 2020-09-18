@@ -18,7 +18,7 @@
 #            Consult output CSV file for inventory results
 #Notes     : Version number syntax = major.minor.patch
 #Requires  : Windows PowerShell,
-#            Azure PowerShell Az module
+#            Azure PowerShell Az module,
 #            Access to Azure subscription
 #
 #Change History:
