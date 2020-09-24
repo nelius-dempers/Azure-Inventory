@@ -17,7 +17,7 @@ Provides an Azure Resource Manager Powershell script for collecting Azure Cloud 
 <br/><br/><br/>
 
 ## Getting started with Azure PowerShell
-https://azure.microsoft.com/en-us/blog/azps-1-0/
+<a href="url">https://azure.microsoft.com/en-us/blog/azps-1-0/</a>
 <br/>
 
 #### 1. Check PowerShell modules...
