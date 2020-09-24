@@ -8,12 +8,12 @@ Provides an Azure Resource Manager Powershell script for collecting Azure Cloud 
 <br/><br/><br/>
 
 ## Features
-1. Retrieve virtual machine attributes in "csv" format from Windows desktop
-2. Configurable VM retrieval:
-   1. ALL virtual machines across all accessible subscription (.csv file per subscription)
-   2. From reference list (scans all subscriptions for reference items)
+1. Retrieve virtual machine attributes in "csv" format directly from workstation
+2. Configurable VM attribute retrieval:
+   1. ALL virtual machines across all accessible subscription(s),  csv file per subscription
+   2. From reference list, scans all subscriptions for reference item(s)
 3. Configurable csv file(s) name prefix
-4. Date and subscription stamped output file name 
+4. Date and subscription stamped output file 
 <br/><br/><br/>
 
 ## Getting started with Azure PowerShell
