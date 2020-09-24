@@ -1,4 +1,4 @@
-# Azure-Inventory-Wizard
+# The Azure Inventory Wizard
 Provides an Azure Resource Manager Powershell script for collecting Azure Cloud IaaS VM information.
 
 ## Requires
@@ -7,26 +7,36 @@ Provides an Azure Resource Manager Powershell script for collecting Azure Cloud 
 3. Access to Azure subscription(s)
 <br/><br/><br/>
 
+## Features
+1. Retrieve virtual machine attributes in "csv" format directly from workstation
+2. Configurable VM attribute retrieval:
+   1. Retrieve ALL virtual machines across all accessible subscription(s),  csv file per subscription
+   2. Retrieve from defined reference list, scans all subscriptions for referenced item(s)
+3. Configurable csv file(s) name prefix
+4. Date and subscription stamped output file 
+<br/><br/><br/>
+
 ## Getting started with Azure PowerShell
 https://azure.microsoft.com/en-us/blog/azps-1-0/
+<br/>
 
-#### 1. Check PowerShell modules ...
+#### 1. Check PowerShell modules...
 *Get-Module -ListAvailable | Select-Object -Property Name,Version,Path*
 <br/><br/>
 
-#### 2. Check Az-module version ...
+#### 2. Check Az-module version...
 *Get-InstalledModule AzureRM | Select-Object -Property Name,Version,Path*
 <br/><br/>
 
-#### 3. Install Az-module ...
+#### 3. Install Az-module...
 *Install-Module -Name Az -Force -Scope CurrentUser -AllowClobber*
 <br/><br/>
 
-#### 4. Log in to Azure from PowerShell ...
+#### 4. Log in to Azure from PowerShell...
 *Login-AzAccount*
 <br/><br/>
 
-#### 5. List Azure subscriptions ...
+#### 5. List Azure subscriptions...
 *Get-AzSubscription*
 <br/><br/><br/>
 
