@@ -5,7 +5,7 @@ Provides an Azure Resource Manager Powershell script for collecting Azure Cloud 
 1. Windows PowerShell
 2. Azure PowerShell Az module
 3. Access to Azure subscription(s)
-<br/><br/><br/>
+<br/><br/>
 
 ## Features
 1. Retrieve virtual machine attributes in "csv" format directly from workstation
